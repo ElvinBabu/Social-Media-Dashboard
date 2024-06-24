@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Media Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="logo">Social Media Dashboard</div>
+        <div class="searchbar">
+            <input type="text" placeholder="Search">
+            <div></div>
+            <div class="searchbtn">
+                <img src="icons.png" alt="search-icon">
+            </div>
+        </div>
+    </header>
+
+    <!-- Navigation Section -->
+    <nav>
+        <ul>
+            <li><a href="#account-management">Account Management</a></li>
+            <li><a href="#post-scheduler">Post Scheduler</a></li>
+        </ul>
+    </nav>
+
+    <!-- Account Management Section -->
+    <section id="account-management">
+        <h2 style="color: blanchedalmond;">Account Management</h2>
+        <div class="account-list">
+            <!-- List of linked social media accounts will be displayed here -->
+        </div>
+        <button id="link-account-btn">Link New Account</button>
+        <img src="src.jpeg" alt="search-icon" class="search-icon1">
+        <img src="src1.png" alt="search-icon" class="search-icon2">
+    </section>
+
+    <!-- Post Scheduler Section -->
+    <section id="post-scheduler">
+        <h2 style="color: blanchedalmond;">Post Scheduler</h2>
+        <form id="post-form">
+            <label for="post-content" style="color: aquamarine;">Post Content:</label>
+            <textarea id="post-content" name="post-content"></textarea>
+            <label for="post-time" style="color: aquamarine;">Post Time:</label>
+            <input type="datetime-local" id="post-time" name="post-time">
+            <label for="post-platform" style="color: aquamarine;">Post Platform:</label>
+            <select id="post-platform" name="post-platform">
+                <option value="instagram">Instagram</option>
+                <option value="twitter">Twitter</option>
+                <option value="facebook">Facebook</option>
+                <option value="youtube">Youtube</option>
+            </select>
+            <button id="schedule-post-btn">Schedule Post</button>
+        </form>
+        <div class="scheduled-posts-list">
+            <!-- List of scheduled posts will be displayed here -->
+        </div>
+    </section>
+
+    <script src="index.js"></script>
+</body>
+</html>

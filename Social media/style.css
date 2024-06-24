@@ -1,0 +1,139 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: blueviolet;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+.searchbar {
+    margin: 1em;
+}
+
+.searchbtn {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 0.5em 1em;
+    cursor: pointer;
+}
+
+.searchbtn:hover {
+    background-color: #444;
+}
+
+nav {
+    background-color: #333;
+    padding: 1em;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #ccc;
+}
+
+section {
+    padding: 2em;
+}
+
+.account-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.account-list li {
+    margin-bottom: 10px;
+}
+
+#link-account-btn {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 0.5em 1em;
+    cursor: pointer;
+}
+
+#link-account-btn:hover {
+    background-color: #444;
+}
+
+.search-icon1 {
+    position: absolute;
+    top: 350px;
+    right: 400px;
+  }
+
+  .search-icon2 {
+    position: absolute;
+    top: 350px;
+    right: 100px;
+  }
+
+#post-form {
+    margin: 2em;
+}
+
+#post-form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+#post-form textarea {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+#post-form input[type="datetime-local"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+}
+
+#post-form select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+}
+
+#schedule-post-btn {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 0.5em 1em;
+    cursor: pointer;
+}
+
+#schedule-post-btn:hover {
+    background-color: #444;
+}
+
+.scheduled-posts-list {
+    list-style: none;
+    margin: 0;
+
+}
